@@ -1,5 +1,5 @@
 {% set name = "pymatgen-io-validation" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymatgen_io_validation-{{ version }}.tar.gz
-  sha256: 1d0406d40e0b176b1a14abef95445e4f95b2d3c2b5f0b9a3dd7bf43c3a1542c0
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pymatgen_io_validation-{{ version }}.tar.gz
+  sha256: b3f29de9ac30a8d12afba8d9b8882a6bbbaa21175a93644afb4c55a303b17369
 
 build:
   noarch: python
